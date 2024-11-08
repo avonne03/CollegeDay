@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CCS</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="#"><img src="image/ccslogo-modified.png" width="50" height="50"/>College of Computer Studies Day</a></div>
+         
+          <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+      </div>
+      <div class="dropdown_menu">
+            <li> <a href="index.html"> Home </a></li>
+            <li> <a href="foundation.html"> Foundation Day </a></li>
+            <li> <a href="awarding.html"> Winners </a></li>
+      </div>
+      <br>   <br>   <br>   <br>  <br>
+      
+      <div class="ccs_message">
+        <p> Held on September 27 at Asian College of Technology, this event showcased the brilliance, teamwork, and passion for learning of our students! A huge shoutout to each and every one of you for your hard work and dedication. You made us all proud!
+          🥇 1st Place: CCS (College of Computer Studies)</p>
+      </div>
+      <br>  <br>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="ccs/m.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>CCS Faculty</h1>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="ccs/n.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Congratulations Winners</h1>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="ccs/q.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Congratulations Winners</h1>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="ccs/z.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Congratulations Winners</h1>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        const toggleBtn=document.querySelector('.toggle_btn')
+        const toggleBtnIcon=document.querySelector('.toggle_btn i')
+        const dropdownMenu=document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function(){
+            dropdownMenu.classList.toggle('open')
+        }
+      </script>
+</body>
+</html>

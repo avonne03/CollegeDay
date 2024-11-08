@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Awarding</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="#"><img src="image/ccslogo-modified.png" width="50" height="50"/>Winners</a> </div>
+         
+          <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+      </div>
+      <div class="dropdown_menu">
+            <li> <a href="index.html"> Home </a></li>
+            <li> <a href="foundation.html"> Foundation Day </a></li>
+            <li> <a href="ccs.html"> CCS </a></li>
+      </div>
+    </div>  
+
+    <div> 
+        <image src="image/congrats.png" class= "congrats" autoplay> </image>
+    </div>
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="winners/a.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Congratulations Winners</h1>
+            <p>Congratulations on your amazing work! Your skills and dedication truly shine through. Keep up the great coding!</p>
+            
+          </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="winners/b.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Congratulations Winners</h1>
+            <p>Congratulations on your amazing work! Your skills and dedication truly shine through. Keep up the great coding!</p>
+            
+          </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="winners/c.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Congratulations Winners</h1>
+            <p>Congratulations on mastering your typing skills! Your hard work and dedication really pay off. Keep typing away!</p>
+            
+          </div>
+        </div>
+    </div>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="winners/d.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Congratulations Winners</h1>
+            <p>Great job on your circuit design simulation! Your attention to detail and creativity really shine through. Keep innovating! </p>
+          </div>
+        </div>
+    </div> <br>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="winners/e.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Congratulations Winners</h1>
+            <p>Congratulations on being the winner of the digital arts challenge! Your creativity and talent truly shone through. Well done! </p>
+          </div>
+        </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="winners/f.jpg" alt="Avatar" style="width:300px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>Congratulations Winners</h1>
+          <p>Congratulations to the champion of the Mobile Legends challenge! Your gameplay was exceptional, and you truly showcased your skills. Well done!</p>
+        </div>
+      </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="winners/g.jpg" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>Congratulations Winners</h1>
+        <p>Congratulations on being the first runner-up in the Mobile Legends challenge! Your performance was outstanding, and you showed incredible skill and determination. Great job! </p>
+      </div>
+    </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="winners/h.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Congratulations Winners</h1>
+      <p>Congratulations on being the second runner-up in the Mobile Legends challenge! Your dedication and skill shone brightly. Well done! </p>
+    </div>
+  </div>
+</div>
+   
+
+      <script>
+        const toggleBtn=document.querySelector('.toggle_btn')
+        const toggleBtnIcon=document.querySelector('.toggle_btn i')
+        const dropdownMenu=document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function(){
+            dropdownMenu.classList.toggle('open')
+        }
+      </script>
+</body>
+</html>
